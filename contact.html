@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="contact.css">
     <script src="scriptfile.js" defer></script>
-    <title>Document</title>
+    <title>Contact Page</title>
 </head>
 <body>
     <!-- Created same header for each html page -->
@@ -15,11 +16,30 @@
                 <h2>Miranda Lucas</h2>
                 <div><a href="home.html"><h4>Home</h4></a></div>
                 <div><a href="about.html"><h4>About</h4></a></div>
-                <div><a href="porfolio.html"><h4>Portfolio</h4></a></div>
+                <div><a href="portfolio.html"><h4>Portfolio</h4></a></div>
+                <div><a href="contact.html"><h4>Contact</h4></a></div>
             </div>
         </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <h6>Contact Me</h6>
+        <form action="submit.html">
+            <label for="name">Name: </label>
+            <input type="text" id="name" required>
+            <label for="email">Email Address: </label>
+            <input type="email" id="email" placeholder="johnsmith@gmail.com" required>
+            <label for="phone">Phone Number: </label>
+            <input type="number" id="phone" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="10" columns="50" placeholder="your message here"></textarea>
+            <div class="submit-btn">
+                <input type="submit" value="SUBMIT">
+            </div>
+        </form>        
+    </main>
+    <footer>
+        <section><a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" style="max-width: 50px;"></a>
+        </section>
+</footer>
 </body>
 </html>

@@ -11,11 +11,19 @@ h4{
 }
 /* General nav bar text styling--including name + links */
 .nav-bar {
-    display: inline-block;
-    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-flow: row-reverse wrap; */
+    padding: 2%;
 }
 /* Whole space of nav bar, not just text */
 nav {
     background-color: rgba(17, 87, 17, 0.635);
 }
-
+/* Hover effects */
+a:link {
+    color: pink;
+}
+a:visited {
+    color: antiquewhite;
+}

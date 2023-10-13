@@ -16,3 +16,7 @@ footer {
     margin-right: auto;
     width: 2%;
 }
+/* full background color change to whole page */
+html {
+    background-color: rgba(20, 104, 20, 0.451);
+}

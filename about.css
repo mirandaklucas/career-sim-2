@@ -17,10 +17,8 @@ img {
     margin-right: auto;
     width: 50%;
 }
-/* Footer styling */
-footer {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+/* full background color change to whole page */
+html {
+    background-color: rgba(20, 104, 20, 0.451);
 }
