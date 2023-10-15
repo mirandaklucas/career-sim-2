@@ -1,5 +1,19 @@
 /* Created one CSS file to keep nav bar the same on each page, hope to improve some of the styling with more practice */
 
+/* Media Queries */
+@media screen and (max-width: 300px) {
+    nav {
+        display: flex;
+        flex-flow: row wrap;
+
+    }
+}
+/* Taking away the bullet points for nav bar */
+li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
 /* My name styling */
 h2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -22,11 +36,13 @@ nav {
 }
 /* Hover effects */
 a:link {
-    color: pink;
+    color: rgb(37, 25, 5);
+    text-decoration: none;
 }
 a:visited {
     color: antiquewhite;
+    text-decoration: none;
 }
-@media screen {
-    
+a:hover {
+    color: greenyellow
 }

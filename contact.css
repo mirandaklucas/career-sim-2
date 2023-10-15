@@ -3,6 +3,7 @@ h6 {
     font-size: 5vh;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgba(36, 85, 49, 0.702);
+    border: 5px dashed rgba(15, 75, 15, 0.736);
 }
 form {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
