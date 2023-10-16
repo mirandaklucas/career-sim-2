@@ -1,3 +1,4 @@
+/* header for form page */
 h6 {
     text-align: center;
     font-size: 5vh;
@@ -5,6 +6,7 @@ h6 {
     background-color: rgba(36, 85, 49, 0.702);
     border: 5px dashed rgba(15, 75, 15, 0.736);
 }
+/* changing whole form styling */
 form {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(31, 110, 31, 0.311);
@@ -12,6 +14,7 @@ form {
     flex-flow: column nowrap;
     padding: 50px;
 }
+/* Changing font within placeholder of textbox */
 textarea {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100v;
