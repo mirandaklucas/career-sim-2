@@ -10,11 +10,11 @@ h4{
 }
 /* General nav bar text styling--including name + links */
 .nav-bar {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap-reverse;
-    padding: 2%;
-    margin: 2rem;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    flex-flow: row wrap-reverse !important;
+    padding: 2% !important;
+    margin: 2rem !important;
 }
 /* Whole space of nav bar, not just text */
 nav {
